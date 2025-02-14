@@ -1,0 +1,7 @@
+# repositories:
+#     vl53l4cd_msgs:
+#         type: git
+#         url: https://github.com/lukestroh/branch_detection_ws
+#         version: develop
+#         packages:
+#             - vl53l4cd_msgs
