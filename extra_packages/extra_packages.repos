@@ -1,7 +1,9 @@
 # repositories:
-#     vl53l4cd_msgs:
+#     branch_detection_interfaces:
 #         type: git
-#         url: https://github.com/lukestroh/branch_detection_ws
+#         url: https://github.com/lukestroh/branch_detection_system
 #         version: develop
-#         packages:
-#             - vl53l4cd_msgs
+#         sparse-checkout:
+#             cone: true
+#             include:
+#                 - branch_detection_interfaces/vl53l4cd_msgs
